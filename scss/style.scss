@@ -1,0 +1,26 @@
+@import 'rezet';
+
+
+.wrapper{
+    max-width: 800px;
+    margin: 0 auto;
+}
+.son1{
+    width: 500px;
+    height: 50px;
+}
+.son2{
+    width: 500px;
+    height: 50px;
+}
+.yigindi{
+    width: 400px;
+    background-color: yellow;
+}
+.rang{
+    background-color: green;
+    &:hover{
+        color: #fff;
+        background-color: red;
+    }
+}
